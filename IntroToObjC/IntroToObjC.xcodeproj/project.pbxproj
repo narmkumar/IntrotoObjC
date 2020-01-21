@@ -17,6 +17,7 @@
 		4B22FE9A23D676220054F57B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B22FE9923D676220054F57B /* main.m */; };
 		4B22FEA223D6B5440054F57B /* NKIVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B22FEA123D6B5440054F57B /* NKIVersion.m */; };
 		4B22FEA523D6BE910054F57B /* NKIVersionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B22FEA423D6BE910054F57B /* NKIVersionController.m */; };
+		4B7F3E4D23D6CA400051D96B /* NKIVersionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F3E4C23D6CA400051D96B /* NKIVersionsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		4B22FEA123D6B5440054F57B /* NKIVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKIVersion.m; sourceTree = "<group>"; };
 		4B22FEA323D6BE910054F57B /* NKIVersionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKIVersionController.h; sourceTree = "<group>"; };
 		4B22FEA423D6BE910054F57B /* NKIVersionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKIVersionController.m; sourceTree = "<group>"; };
+		4B7F3E4B23D6CA400051D96B /* NKIVersionsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKIVersionsTableViewController.h; sourceTree = "<group>"; };
+		4B7F3E4C23D6CA400051D96B /* NKIVersionsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKIVersionsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				4B22FE8B23D676210054F57B /* ViewController.m */,
 				4B22FEA323D6BE910054F57B /* NKIVersionController.h */,
 				4B22FEA423D6BE910054F57B /* NKIVersionController.m */,
+				4B7F3E4B23D6CA400051D96B /* NKIVersionsTableViewController.h */,
+				4B7F3E4C23D6CA400051D96B /* NKIVersionsTableViewController.m */,
 				4B22FEA023D6B5440054F57B /* NKIVersion.h */,
 				4B22FEA123D6B5440054F57B /* NKIVersion.m */,
 				4B22FE8D23D676210054F57B /* Main.storyboard */,
@@ -161,6 +166,7 @@
 			files = (
 				4B22FE9A23D676220054F57B /* main.m in Sources */,
 				4B22FE8C23D676210054F57B /* ViewController.m in Sources */,
+				4B7F3E4D23D6CA400051D96B /* NKIVersionsTableViewController.m in Sources */,
 				4B22FE9223D676210054F57B /* IntroToObjC.xcdatamodeld in Sources */,
 				4B22FEA223D6B5440054F57B /* NKIVersion.m in Sources */,
 				4B22FEA523D6BE910054F57B /* NKIVersionController.m in Sources */,
