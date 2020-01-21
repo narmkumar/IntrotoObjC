@@ -43,8 +43,13 @@
     NKIVersion *version = [self.controller.versions objectAtIndex:indexPath.row]; // ESC, type method name, ] (for suggestions from autocomplete)
 //    NKIVersion *version = [self.controller.versions objectAtIndex:indexPath.row]; // ]
 
+    // Dot syntax - new for properties
     cell.textLabel.text = version.name;
     cell.detailTextLabel.text = version.releaseDate;
+    
+    // Method call syntax (Original ObjC Syntax)
+    [[cell textLabel] setText:[version name]];
+    [[cell detailTextLabel] setText:[version releaseDate]];
     
     return cell;
 }

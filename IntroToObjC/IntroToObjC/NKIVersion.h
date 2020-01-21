@@ -15,6 +15,28 @@
 
 // NS = Next Step
 @property NSString *name;
+
+// ObjC will generate three things for a property
+// 1. Backing variabel (instance variable: _name)
+
+// NSString *_name;
+
+// 2. Getter Method
+
+//- (NSString *)name;
+
+//- (NSString *)name { // Same as above but implicitly built in
+//return _name;
+//}
+
+// 3. Setter Method
+
+//- (void)setName: (NSString *)name;
+
+// - (void)setName: (NSString *)name { Same as above but implicitly built in
+//    _name = name;
+//}
+
 @property NSString *releaseDate;
 
 // Initializers
